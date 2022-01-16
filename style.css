@@ -62,3 +62,70 @@ main{
     box-shadow: 0.8vw 0.8vw 0.5vw #4c72b7;
     padding: 4%;
 }
+
+@media (min-width : 1026px){
+    .atenas{
+        width: 27%;
+        font-size: 4vw;
+    }
+    .atenas:hover{
+        width: 30%;
+    }
+    .artemis{
+        width: 24%;
+        font-size: 3.5vw;
+    }
+    .artemis:hover{
+        width: 27%;
+    }
+}
+
+@media (max-width : 768px){
+    .atenas{
+        height: 72%;
+        width: 33%;
+        font-size: 4vw;
+    }
+    .atenas:hover{
+        height: 80%;
+        width: 36%;
+    }
+    .artemis{
+        height: 72%;
+        width: 31%;
+        font-size: 3.5vw;
+    }
+    .artemis:hover{
+        height: 80%;
+        width: 33%;
+    }
+}
+
+@media (max-width : 426px){
+    main{
+        height: 150vh;
+        flex-direction: column;
+    }
+    .atenas{
+        height: 45%;
+        width:45%;
+        font-size: 5.5vw;
+        padding: 2%;
+    }
+    .atenas:hover{
+        height: 50%;
+        width: 50%;
+        padding: 10%;
+    }
+    .artemis{
+        height: 45%;
+        width: 45%;
+        font-size: 4.5vw;
+        padding: 7%;
+    }
+    .artemis:hover{
+        height: 50%;
+        width: 47%;
+        padding: 8%;
+    }
+}
