@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Josefin+Sans:wght@400;500&family=Lobster&family=Mochiy+Pop+P+One&family=Playfair+Display:wght@400;500&family=Raleway:wght@400;500&family=Righteous&family=Source+Code+Pro:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #faf8ef;
+}
+.atenas{
+    height: 80%;
+    width: 30%;
+    background-image: url("./images/atena.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vw;
+    font-family: 'Mochiy Pop P One';
+    color: #f6eee1;
+    border-radius: 2vw;
+    text-align: center;
+    text-shadow: 0.3vw 0.3vw 0.1vw #291e1e;
+    transition: 0.6s;
+    box-shadow: 0.5vw 0.5vw 0.5vw black;
+    padding: 2%;
+}
+.atenas:hover{
+    height: 90%;
+    width: 33%;
+    box-shadow: 0.8vw 0.8vw 0.5vw black;
+    padding: 10%;
+}
+.artemis{
+    height: 82%;
+    width: 27%;
+    background-image: url("./images/artemis.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.8vw;
+    font-family: 'Mochiy Pop P One';
+    color: #f6eee1;
+    border-radius: 2vw;
+    text-align: center;
+    text-shadow: 0.3vw 0.3vw 0.1vw #291e1e;
+    transition: 0.6s;
+    box-shadow: 0.5vw 0.5vw 0.5vw #4c72b7;
+    padding: 5%;
+}
+.artemis:hover{
+    height: 90%;
+    width: 29%;
+    box-shadow: 0.8vw 0.8vw 0.5vw #4c72b7;
+    padding: 4%;
+}
