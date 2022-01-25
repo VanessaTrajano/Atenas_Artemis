@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 main{
-    height: 100vh;
+    height: 47vw;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
@@ -103,7 +103,7 @@ main{
 
 @media (max-width : 426px){
     main{
-        height: 150vh;
+        height: 150vw;
         flex-direction: column;
     }
     .atenas{
