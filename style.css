@@ -103,7 +103,7 @@ main{
 
 @media (max-width : 426px){
     main{
-        height: 200vw;
+        height: 300vw;
         flex-direction: column;
     }
     .atenas{
